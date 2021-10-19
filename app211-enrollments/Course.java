@@ -15,10 +15,8 @@ public class Course
     private String title;
     // Method to add a module to the course
     private Module module;
-    /**
-     * Create a Course with a maximum number of enrolments. 
-     * 
-     */
+    
+    // Course object
     public Course(String code, String title)
     {
         this.code = code;
@@ -26,20 +24,17 @@ public class Course
       
     }
     
+    // Method to assign module to course
     public void assignModule(Module module)
     {
     this.module = module;
     } 
-    
-    /**
-     * Print the details of the course, the list
-     * of students enrolled and the module
-     */
+    //Print method
     public void print()
     {
         
         System.out.println(" Course Code: " + code + ": " + title);
-        module.print();
+     //   module.print();
     }
         public void printModule(Module module)
     {
@@ -56,9 +51,4 @@ public class Course
         System.out.println();
     }
 
-    //public void assignModule(Module module)
-    //{
-    //    this.module = module;
-    //}
-    
 }
