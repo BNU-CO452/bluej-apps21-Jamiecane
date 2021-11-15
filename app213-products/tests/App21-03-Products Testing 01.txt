@@ -1,0 +1,98 @@
+StockList stockList = new StockList();
+StockDemo stockDemo = new StockDemo(stockList);
+Product xboxOneRdr2 = new Product(100, "Xbox One: Red Dead Redemption 2");
+stockDemo.runDemo();
+
+ Jamie's Stock List
+ ====================
+
+ ID 100: Xbox One: Red Dead Redemption 2 stock level: 0
+ ID 101: PS4: Fifa 22 stock level: 0
+ ID 102: Nintendo Wii: Wii Sports stock level: 0
+ ID 103: Nintendo Switch: Mario Kart 8 stock level: 0
+ ID 104: PS5: Call Of Duty - Vanguard stock level: 0
+ ID 105: Xbox Series S: Halo Infinite stock level: 0
+ ID 106: PS4: FarCry 6 stock level: 0
+ ID 107: Nintendo Switch: Metroid Dread stock level: 0
+ ID 108: Xbox 360: Fallout New Vegas stock level: 0
+ ID 109: Xbox One: Crash Team Racing - Remastered stock level: 0
+
+Bought 0  ID 100: Xbox One: Red Dead Redemption 2 stock level: 0
+Bought 12  ID 101: PS4: Fifa 22 stock level: 12
+Bought 5  ID 102: Nintendo Wii: Wii Sports stock level: 5
+Bought 12  ID 103: Nintendo Switch: Mario Kart 8 stock level: 12
+Bought 2  ID 104: PS5: Call Of Duty - Vanguard stock level: 2
+Bought 11  ID 105: Xbox Series S: Halo Infinite stock level: 11
+Bought 3  ID 106: PS4: FarCry 6 stock level: 3
+Bought 5  ID 107: Nintendo Switch: Metroid Dread stock level: 5
+Bought 9  ID 108: Xbox 360: Fallout New Vegas stock level: 9
+Bought 11  ID 109: Xbox One: Crash Team Racing - Remastered stock level: 11
+
+ Jamie's Stock List
+ ====================
+
+ ID 100: Xbox One: Red Dead Redemption 2 stock level: 0
+ ID 101: PS4: Fifa 22 stock level: 12
+ ID 102: Nintendo Wii: Wii Sports stock level: 5
+ ID 103: Nintendo Switch: Mario Kart 8 stock level: 12
+ ID 104: PS5: Call Of Duty - Vanguard stock level: 2
+ ID 105: Xbox Series S: Halo Infinite stock level: 11
+ ID 106: PS4: FarCry 6 stock level: 3
+ ID 107: Nintendo Switch: Metroid Dread stock level: 5
+ ID 108: Xbox 360: Fallout New Vegas stock level: 9
+ ID 109: Xbox One: Crash Team Racing - Remastered stock level: 11
+
+Selling Quanitities of Stock
+
+Selling none of 100
+Selling Quanitities of Stock
+
+Selling 4 101
+Selling Quanitities of Stock
+
+All stock is sold!!
+Selling 5 102
+Selling Quanitities of Stock
+
+All stock is sold!!
+Selling 12 103
+Selling Quanitities of Stock
+
+All stock is sold!!
+Selling 2 104
+Selling Quanitities of Stock
+
+Selling 9 105
+Selling Quanitities of Stock
+
+All stock is sold!!
+Selling 3 106
+Selling Quanitities of Stock
+
+All stock is sold!!
+Selling 5 107
+Selling Quanitities of Stock
+
+All stock is sold!!
+Selling 9 108
+Selling Quanitities of Stock
+
+Selling 0 109
+Product 110 Not found
+
+ Jamie's Stock List
+ ====================
+
+ ID 100: Xbox One: Red Dead Redemption 2 stock level: 0
+ ID 101: PS4: Fifa 22 stock level: 8
+ ID 102: Nintendo Wii: Wii Sports stock level: 0
+ ID 103: Nintendo Switch: Mario Kart 8 stock level: 0
+ ID 104: PS5: Call Of Duty - Vanguard stock level: 0
+ ID 105: Xbox Series S: Halo Infinite stock level: 2
+ ID 106: PS4: FarCry 6 stock level: 0
+ ID 107: Nintendo Switch: Metroid Dread stock level: 0
+ ID 108: Xbox 360: Fallout New Vegas stock level: 0
+ ID 109: Xbox One: Crash Team Racing - Remastered stock level: 11
+
+stockList.search("Xbox One");
+[ ID 100: Xbox One: Red Dead Redemption 2 stock level: 0,  ID 101: PS4: Fifa 22 stock level: 8,  ID 102: Nintendo Wii: Wii Sports stock level: 0,  ID 103: Nintendo Switch: Mario Kart 8 stock level: 0,  ID 104: PS5: Call Of Duty - Vanguard stock level: 0,  ID 105: Xbox Series S: Halo Infinite stock level: 2,  ID 106: PS4: FarCry 6 stock level: 0,  ID 107: Nintendo Switch: Metroid Dread stock level: 0,  ID 108: Xbox 360: Fallout New Vegas stock level: 0,  ID 109: Xbox One: Crash Team Racing - Remastered stock level: 11]
