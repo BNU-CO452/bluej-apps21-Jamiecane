@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea1e931f-fa52-46fe-9c78-0030a98bbdc3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../app213-products/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../app213-products/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.App2104-diagram.vpp.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App2104-diagram.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/App2104-diagram.vpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/package.bluej" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,7 @@
       <updated>1638205581888</updated>
       <workItem from="1638205584044" duration="26000" />
       <workItem from="1638205672165" duration="453000" />
+      <workItem from="1638837898005" duration="3000" />
     </task>
     <servers />
   </component>
