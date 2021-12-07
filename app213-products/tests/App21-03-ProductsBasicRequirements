@@ -1,0 +1,24 @@
+Product xboxOneRdr2 = new Product(100, "Xbox One: Red Dead Redemption 2");
+xboxOneRdr2.print();
+ ID 100: Xbox One: Red Dead Redemption 2 stock level: 0
+xboxOneRdr2.decreaseQuantity(5);
+xboxOneRdr2.print();
+ ID 100: Xbox One: Red Dead Redemption 2 stock level: 0
+xboxOneRdr2.increaseQuantity(100);
+xboxOneRdr2.print();
+ ID 100: Xbox One: Red Dead Redemption 2 stock level: 100
+xboxOneRdr2.decreaseQuantity(55);
+xboxOneRdr2.print();
+ ID 100: Xbox One: Red Dead Redemption 2 stock level: 45
+Product ps4Fifa22 = new Product(101, "PS4: Fifa 22");
+StockList stockList = new StockList();
+stockList.add(xboxOneRdr2);
+stockList.add(ps4Fifa22);
+stockList.print();
+
+ Jamie's Stock List
+ ====================
+
+ ID 100: Xbox One: Red Dead Redemption 2 stock level: 45
+ ID 101: PS4: Fifa 22 stock level: 0
+
