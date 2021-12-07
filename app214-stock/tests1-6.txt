@@ -1,0 +1,148 @@
+print
+
+ Jamie's Stock List
+ ====================
+
+ ID 101: Xbox One: Red Dead Redemption 2 stock level: 0
+ ID 102: PS4: Fifa 22 stock level: 0
+ ID 103: Nintendo Wii: Wii Sports stock level: 0
+ ID 104: Nintendo Switch: Mario Kart 8 stock level: 0
+ ID 105: PS5: Call Of Duty - Vanguard stock level: 4
+ ID 106: Xbox Series S: Halo Infinite stock level: 0
+ ID 107: PS4: FarCry 6 stock level: 0
+ ID 108: Nintendo Switch: Metroid Dread stock level: 0
+ ID 109: Xbox 360: Fallout New Vegas stock level: 0
+ ID 110: Xbox One: Crash Team Racing - Remastered stock level: 0
+
+********************************
+  App21-04: Stock Application 
+         by Jamie Cane
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > add
+Please enter a new product ID number: 
+111
+Please enter the name of the new game. 
+Your input is blank!
+
+Please enter the name of the new game. Halo 3
+****************************************************************
+You have added a new game with the ID of 111 and the name of Halo 3
+****************************************************************
+********************************
+  App21-04: Stock Application 
+         by Jamie Cane
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > remove
+Please enter a product ID number: 
+101
+****************************************************************
+****************************************************************
+********************************
+  App21-04: Stock Application 
+         by Jamie Cane
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > buy
+How many do you want to buy?: 
+4
+Please enter ID of the product you want to search for: 
+105
+Bought 4  ID 105: PS5: Call Of Duty - Vanguard stock level: 8
+****************************************************************
+You have purchased 4 of this product ID: 105 Name: PS5: Call Of Duty - Vanguard
+****************************************************************
+********************************
+  App21-04: Stock Application 
+         by Jamie Cane
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > sell
+Please enter the amount you wish to sell: 
+4
+Please enter a product ID number of the item you wish to sell. 
+105
+Selling Quanitities of Stock
+
+Selling 4 105
+****************************************************************
+You have sold 4 copies of the follwing product ID: 105 Name: PS5: Call Of Duty - Vanguard
+****************************************************************
+********************************
+  App21-04: Stock Application 
+         by Jamie Cane
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > search id
+Please enter the ID number of the item you are looking for: 
+108
+****************************************************************
+You have searched for ID 108. This Game is:  Nintendo Switch: Metroid Dread
+****************************************************************
+********************************
+  App21-04: Stock Application 
+         by Jamie Cane
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > 
