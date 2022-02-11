@@ -5,6 +5,7 @@ import java.util.*;
  * 
  * @author Michael Kölling and David Barnes
  * Modified by Derek Peacock & Nicholas Day
+ * Modified by Jamie Cane 26/09/21
  * @version 2021-08-18
  */
 public class Student
@@ -24,7 +25,7 @@ public class Student
      */
     public Student()
     {
-        this("Derek", 12345678);
+        this("Jamie", 22027384);
     }
     
     /**
@@ -86,7 +87,6 @@ public class Student
         return id;
     }
 
-        
     /**
      * Print the student's name and ID number to the 
      * output terminal.
@@ -104,14 +104,18 @@ public class Student
     
     private void printModules()
     {
-
+        for(ModuleMark mark: marks)
+        {
+            mark.print();
+            System.out.println(course.convertToGrade(mark.getValue()));
+        }
     }
     
     public void printTranscript()
     {
         System.out.println(" ------------------------------------");
         System.out.println(" App21-02: Exam Board Transcript 2021");
-        System.out.println("        by student name");
+        System.out.println("        by Jamie Cane");
         System.out.println(" ------------------------------------");
         
         printCourse();
@@ -122,6 +126,7 @@ public class Student
         System.out.println(" Code \t Module \t\tCredit\t Mark \t Grade");
         System.out.println(" ---- \t -------------------- \t ------\t ---- \t -----");
         
+        printModules();
        
         Grades finalGrade = course.calculateGrade(marks);
         

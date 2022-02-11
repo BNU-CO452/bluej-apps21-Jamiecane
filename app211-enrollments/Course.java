@@ -2,41 +2,44 @@ import java.util.*;
 
 /**
  * This class contains information about an undergraduate course
- * at BNU together with a list of student who are enrolled
+ * at BNU together with a list of students who are enrolled
  *
- * @author Derek Peacock
- * @version 1.0 14/07/2021
+ * @author Jamie Cane
+ * @version 1.0 12/10/2021
  */
 public class Course
 {
-    // A unique identifier e.g. BT1CTG1
+    // A unique identifier - BT1GDV1
     private String code;
     // The full title including qualification and subject
     private String title;
+    // Method to add a module to the course
+    private Module module;
     
-    /**
-     * Create a Course with a maximum number of enrolments. 
-     * All other details are set to unkown values.
-     */
+    // Course object
     public Course(String code, String title)
     {
         this.code = code;
         this.title = title;
+      
     }
-
     
-    /**
-     * Print the details of the course, the list
-     * of students enrolled and the module
-     */
+    // Method to assign module to course
+    public void assignModule(Module module)
+    {
+    this.module = module;
+    } 
+    //Print method
     public void print()
     {
-        printHeading();
         
         System.out.println(" Course Code: " + code + ": " + title);
-        System.out.println();
+     //   module.print();
     }
-    
+        public void printModule(Module module)
+    {
+        module.print();
+    }
     /**
      * Print out the details of the course to the terminal.
      */
@@ -47,4 +50,5 @@ public class Course
         System.out.println(" --------------------------------");
         System.out.println();
     }
+
 }

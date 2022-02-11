@@ -1,0 +1,13 @@
+programmingConcepts.print();
+ Module Code: CO450: Programming Concepts
+ Credit: 0
+programmingConcepts.setCredit(15);
+programmingConcepts.print();
+ Module Code: CO450: Programming Concepts
+ Credit: 15
+gameDevelopment.assignModule(programmingConcepts);
+gameDevelopment.print();
+ Course Code: BT1GDV1: Game Development
+gameDevelopment.printModule(programmingConcepts);
+ Module Code: CO450: Programming Concepts
+ Credit: 15

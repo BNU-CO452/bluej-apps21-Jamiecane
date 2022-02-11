@@ -4,7 +4,7 @@ import java.util.Random;
  * Manage the stock in a business.
  * The stock is described by zero or more Products.
  * 
- * @author (Jamie Cane) 
+ * @author Jamie Cane
  * @version (14.11.21)
  */
 public class StockList
@@ -29,7 +29,16 @@ public class StockList
     {
         stock.add(item);
     }
-    
+    /**
+     * removes a product from the list
+     */
+    public void remove(int productID)
+    {
+        Product product = findProduct(productID);
+        if(product != null) {
+            stock.remove(product);
+        }
+    }
     /**
      * A method to buy a single quantity of the product
      */
@@ -50,7 +59,7 @@ public class StockList
     
         if(product == null)
         {
-            System.out.println(product + "NOT FOUND ");
+            System.out.println(product + " NOT FOUND ");
         }
         else
         {
@@ -74,13 +83,11 @@ public class StockList
         
         return null;
     }
+
+   /**
+    * sells one of the products from the stock by finding by ID.
+    */
     
-    
-    /**
-     * Sell one of the given product.
-     * Show the before and after status of the product.
-     * @param id The ID of the product being sold.
-     */
     public void sellProduct(int productID, int sellQuantity)
     {
         System.out.println("Selling Quanitities of Stock\n");
@@ -128,11 +135,7 @@ public class StockList
     }
     
     /**
-     * Locate a product with the given ID, and return how
-     * many of this item are in stock. If the ID does not
-     * match any product, return zero.
-     * @param id The ID of the product.
-     * @return The quantity of the given product in stock.
+     * returns 0 for the number in stock
      */
     public int numberInStock(int productID)
     {

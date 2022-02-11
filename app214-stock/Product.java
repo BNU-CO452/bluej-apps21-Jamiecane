@@ -2,7 +2,7 @@
  * Model some details of a product sold by a company.
  * 
  * @author Jamie Cane
- * @version 2016.02.29
+ * @version 29.11.2021
  */
 public class Product
 {
@@ -85,8 +85,7 @@ public class Product
     /**
      * Method to print the products in stock
      */
-    
-    public void print()
+     public void print()
     {
         System.out.println(toString());
     }
